@@ -70,3 +70,12 @@
 /****************/
 
 /* jouw code */
+
+h1{
+    font-family: 'Europa', sans-serif;
+    font-size: 32px;
+}
+
+p{
+    font-family: 'Europa', sans-serif;
+}

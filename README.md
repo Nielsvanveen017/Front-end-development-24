@@ -87,8 +87,7 @@ Tijdens de les moesten wij met behulp van de voice over onze gekozen website op 
     * Er is bij de huidige website niet vermeld in welke taal de website is geschreven --> lang="eng" toevoegen in HTML
     * Er wordt een afsluitende slash gebruikt op lege elementen, dit heeft volgens de validator geen zin
     * Er wordt in de huidige website over het algemeen gebruik gemaakt van EM in plaats van pixel, waardoor de website makkelijk te vergroten is. Dit gebeurt echter nog niet op alle plaatsen.
-    * In de huidige website wordt er niet gebruik gemaakt van landmarkelementen. Zo ontbreekt het MAIN element
-    * Op deze website wordt niet gebruikt gemaakt van autofocus
+    * Op deze website wordt niet gebruikt gemaakt van autofocus (handig voor blinde mensen)
     * De website geeft op dit moment de gebruikte iframes geen duidelijke naam
     * Het is niet mogelijk om met tab op de knop in de hero te drukken
     * De active state die wordt gebruikt tijdens het navigeren met tab is duidelijk, maar is niet bij alle elementen aanwezig

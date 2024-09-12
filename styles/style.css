@@ -59,6 +59,7 @@
 	/* startje */
 	--color-text-dark:#fff;
 	--color-background-dark:#000000;
+    --dark-color-text:#ffffff;
 }
 
 
@@ -73,9 +74,31 @@ nav{
     height: 64px;
 }
 
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+
+}
+
+nav ul li{
+    font-family: 'Europa', sans-serif;
+    color: #fff;  
+}
+
+nav ul li img{
+    width: 24px;
+    height: 24px;
+}
+
+
 h1{
     font-family: 'Europa', sans-serif;
     font-size: 32px;
+    font-weight: 700;
+    color: var(--dark-color-text);
 }
 
 h2{
@@ -83,11 +106,13 @@ h2{
     font-size: 32px;   
     margin: 32px 16px;
     text-align: center;
+    color: var(--dark-color-text);
 }
 
 h3{
     font-family: 'Europa', sans-serif;
-    font-size: 20px;
+    font-size: 2rem;
+    color: var(--dark-color-text);
 }
 p{
     font-family: 'Europa', sans-serif;
@@ -101,3 +126,73 @@ a{
 /****************/
 /* CSS SELECTOREN */
 /****************/
+body{
+    background-color: #372E1E;
+}
+article {
+ 
+    margin: 2em 1em 0 1em;
+}
+
+article h1{
+    margin-bottom: 1.2em;
+}
+
+.event-card{
+    display: flex;
+    flex-direction: column;
+    background-color:#000000;
+    color: #fff;
+    border-radius: 1em;
+    height: 100%;
+}
+
+.event-card img{
+    width: 100%; /*Anders loopt de afbeelding uit de container*/
+    border-radius: 1em 1em 0 0 ;
+}
+
+.event-card ul{
+    margin: 24px;
+}
+
+.event-card ul h3{
+    margin: 5px 0 12px 0;
+    font-size: 20px;
+    letter-spacing: .1rem;
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    /*Afbreken van de tekst*/
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+}
+
+.event-info{
+    display: flex;
+    gap: 0.7em;
+    font-weight: 300;
+    margin-bottom: 6px;
+    font-size: 12px;
+}
+
+.event-info img{
+    width: 1em;
+    background-color: #ffffff;
+}
+
+li:last-child{
+    display: flex;
+    margin-top: 16px;
+    gap:12px;
+}
+
+
+li:last-child a{
+    padding: 0.3rem 0.6rem;
+    border-radius: 100px;
+    border: solid 1px;
+    font-size: 12px;
+    font-weight: 300;
+
+}
